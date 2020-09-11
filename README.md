@@ -1,5 +1,5 @@
 # JScanner
-Thread based scanning of javscript for secrets and vulnerabilites. Scans JS even on non .js endpoint. Useful for scripting with other command while still saving to a file.
+Threaded scanning of javscript for secrets and vulnerabilites. Scans JS even on non .js endpoint. Useful for scripting with other command while still saving to a file.
 
 # Usage
 ```
