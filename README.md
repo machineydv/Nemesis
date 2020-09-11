@@ -27,3 +27,8 @@ Scan a single URLs
 * JScanner -w <(echo 'google.com') -oD `pwd` -t 1 -d google.com  
 Scan from URLs  
 * JScanner -w /tmp/files.txt -oD `pwd` -t 10 -d anydomainnameinfiles.txt.com  
+
+# Problems
+1. Only scans inline javascript
+2. May provide duplicate info
+3. Output need to be improved
