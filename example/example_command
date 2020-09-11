@@ -1,1 +1,0 @@
-JScanner -w <(echo 'https://selfhacked.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') -oD `pwd` -d selfhacked.com -t 18
