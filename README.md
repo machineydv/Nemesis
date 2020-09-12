@@ -24,9 +24,9 @@ Enjoy bug hunting
 
 # Example
 Scan a single URLs  
-* JScanner -w <(echo 'google.com') -oD `pwd` -t 1 -d google.com  
+* ```JScanner -w <(echo 'google.com') -oD `pwd` -t 1 -d google.com```  
 Scan from URLs  
-* JScanner -w /tmp/files.txt -oD `pwd` -t 10 -d anydomainnameinfiles.txt.com  
+* ```JScanner -w /tmp/files.txt -oD `pwd` -t 10 -d anydomainnameinfiles.txt.com```  
 
 # Problems
 1. Only scans inline javascript
