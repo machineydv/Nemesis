@@ -1,7 +1,8 @@
 # JScanner
-Threaded scanning of javscript for secrets and vulnerabilites. Scans JS even on non .js endpoint. Useful for scripting with other command while still saving to a file.
+## Description
+Threaded scanning of urls mostly .js url for secrets and vulnerabilites. Scans JS even on non .js endpoint. Useful for scripting with other command while still saving to a file.
 
-# Usage
+## Usage
 ```
 usage: JScanner [-h] [-w WORDLIST] [-oD OUTPUT_DIRECTORY] [-d DOMAIN] [-t THREADS] [-b]
 
@@ -22,13 +23,14 @@ optional arguments:
 Enjoy bug hunting
 ```
 
-# Example
+## Example
 Scan a single URLs  
 * ```JScanner -w <(echo 'google.com') -oD `pwd` -t 1 -d google.com```  
 Scan from URLs  
 * ```JScanner -w /tmp/files.txt -oD `pwd` -t 10 -d anydomainnameinfiles.txt.com```  
 
-# Problems
-1. Only scans inline javascript
-2. May provide duplicate info
+## Caveats
+1. Only scans inline javascript when non js endpoint is given
+2. May provide duplicate info (URL Skipper is in progress)
 3. Output need to be improved
+4. Argument to scan .js file only
