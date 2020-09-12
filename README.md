@@ -2,6 +2,12 @@
 ## Description
 Threaded scanning of urls mostly .js url for secrets and vulnerabilites. Scans JS even on non .js endpoint. Useful for scripting with other command while still saving to a file.
 
+## Features
+1. Concurrent scanning of all any endpoints for javascript.
+2. Define your own regex in lib/Globals.py.
+3. Regex for DOM XSS sinks, sources, web services, interesting variable already included.
+4. Shannon entropy to catch whats missed by regex.
+
 ## Usage
 ```
 usage: JScanner [-h] [-w WORDLIST] [-oD OUTPUT_DIRECTORY] [-d DOMAIN] [-t THREADS] [-b]
@@ -34,3 +40,4 @@ Scan from URLs
 2. May provide duplicate info (URL Skipper is in progress)
 3. Output need to be improved
 4. Argument to scan .js file only
+5. Shannon Entropy to be implemented.
