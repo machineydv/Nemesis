@@ -1,5 +1,7 @@
 # JScanner
 ## Description
+- :warning: Before diving into my tools, read this: [NUKED](https://github.com/machineydv/machineydv/blob/master/NUKED.md)
+
 Threaded scanning of urls mostly .js url for secrets and vulnerabilites. Scans JS even on non .js endpoint. Useful for scripting with other command while still saving to a file.
 
 ## Features
