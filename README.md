@@ -1,12 +1,10 @@
-# Nemesis
+# PROJECT UNMAINTAINED AND MAY CONTAIN BUGS. CURRENTLY TAKING BREAK# Nemesis
 ![Nemesis](pics/Nemesis.png)
 [![Code Grade](https://www.code-inspector.com/project/15087/status/svg)](https://frontend.code-inspector.com/public/project/15087/Nemesis/dashboard)
 [![Code Quality](https://www.code-inspector.com/project/15087/score/svg)](https://frontend.code-inspector.com/public/project/15087/Nemesis/dashboard)
 
- - :warning: Before diving into my tools, read this: [NUKED](https://github.com/machineydv/machineydv/blob/master/NUKED.md)
-
 ## Description
-A simple tool for scanning urls for vulnerabilites and sensitive information. It has lot of pre defined regexes for dom xss possibility detection, secrets leakage, hidden parameters, extra links and much more. 
+A simple tool for scanning urls for vulnerabilites and sensitive information. It has lot of pre defined regexes for dom xss possibility detection, secrets leakage, hidden parameters, extra links and much more. The repository got [destroyed](https://github.com/machineydv/machineydv/blob/master/NUKED.md) along with my old account, however shoutout to [ritikx01](https://github.com/ritikx01) for finding the [fork](https://github.com/ducducuc111/Nemesis) of my repository.
 
 ## Features
 1. Supports scanning of both html and javascript urls

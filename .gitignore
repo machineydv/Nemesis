@@ -1,1 +1,5 @@
-tests
+.tox/
+**/__pycache__/
+dist/
+build/
+src/nemesis_scan.egg-info/
